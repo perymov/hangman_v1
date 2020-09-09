@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Виселица</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="main">
+			<div class="content">
+				<h1>Виселица!</h1>
+				<button class="new__game">Начать новую игру</button>
+				<div class="massage__area"></div>
+				<div class="count">
+					Количество оставшихся попыток:
+					<p class="guess__count">0</p>
+				</div>
+				<div class="table">
+					<table class="letter__table">
+						<tr class="letter__list"></tr>
+					</table>
+				</div>
+				<div class="wrong__letters"></div>
+				<form class="add">
+					<input type="text" class="guess__input" placeholder="Введите букву">
+					<button>Ввод</button>
+				</form>
+				<button class="guess">Я знаю слово!</button>
+			</div>
+			<div class="img">
+				<img src="image/12.png" alt="" id="img">
+			</div>
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
