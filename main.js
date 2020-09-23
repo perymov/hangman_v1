@@ -18,7 +18,14 @@ document.addEventListener('DOMContentLoaded', () => {
 				"крокодил",
 				"балалайка",
 				"торнадо",
-				"небоскреб"
+				"небоскреб",
+				"вертолет",
+				"керамика",
+				"генератор",
+				"пельмень",
+				"клавиатура",
+				"телефон",
+				"компьютер"
 			];
 			return words[Math.floor(Math.random() * words.length)];
 		},
